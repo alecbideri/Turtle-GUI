@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38e37a64-ae90-4df1-ad7f-fc59506346c0" name="Changes" comment="Random walking">
-      <change afterPath="$PROJECT_DIR$/Testing Turtle udemy/spiral_graph.py" afterDir="false" />
+    <list default="true" id="38e37a64-ae90-4df1-ad7f-fc59506346c0" name="Changes" comment="My first spiral graph">
+      <change afterPath="$PROJECT_DIR$/Testing Turtle udemy/hirst_palette_me.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Testing Turtle udemy/hirst_pallete_ai.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Testing Turtle udemy/image.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testing Turtle udemy/random_walk.py" beforeDir="false" afterPath="$PROJECT_DIR$/Testing Turtle udemy/random_walk.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +43,9 @@
   "keyToString": {
     "Python.dash_lines.executor": "Run",
     "Python.graphics_scripts.executor": "Run",
+    "Python.hirsT_painting.executor": "Run",
+    "Python.hirst_palette_me.executor": "Run",
+    "Python.hirst_pallete_ai (1).executor": "Run",
     "Python.main (1).executor": "Run",
     "Python.main.executor": "Run",
     "Python.multiple_shapes.executor": "Run",
@@ -52,11 +56,17 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main"
+    "git-widget-placeholder": "main",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.spiral_graph">
-    <configuration name="dash_lines" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\BIDERI ALEC\Desktop\informations\PROJECTS\Python\Turtle_GUI\Testing Turtle udemy" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.hirst_pallete_ai (1)">
+    <configuration name="hirst_palette_me" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Turtle_GUI" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -69,7 +79,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Testing Turtle udemy/dash_lines.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Testing Turtle udemy/hirst_palette_me.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -78,7 +88,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="multiple_shapes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="hirst_pallete_ai (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Turtle_GUI" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -91,7 +101,29 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Testing Turtle udemy/multiple_shapes.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Testing Turtle udemy/hirst_pallete_ai.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="hirst_pallete_ai" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Turtle_GUI" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Testing Turtle udemy" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\BIDERI ALEC\Desktop\informations\PROJECTS\Python\Turtle_GUI\Testing Turtle udemy\hirst_pallete_ai.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -144,35 +176,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="square" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Turtle_GUI" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Testing Turtle udemy" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Testing Turtle udemy/square.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.hirst_pallete_ai (1)" />
+        <item itemvalue="Python.hirst_palette_me" />
+        <item itemvalue="Python.hirst_pallete_ai" />
         <item itemvalue="Python.spiral_graph" />
         <item itemvalue="Python.random_walk" />
-        <item itemvalue="Python.multiple_shapes" />
-        <item itemvalue="Python.dash_lines" />
-        <item itemvalue="Python.square" />
       </list>
     </recent_temporary>
   </component>
@@ -216,13 +226,22 @@
       <option name="project" value="LOCAL" />
       <updated>1712919575442</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="My first spiral graph">
+      <option name="closed" value="true" />
+      <created>1712920689766</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1712920689766</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="My first dash lines using turtle" />
     <MESSAGE value="My first multiple shapes on one screen" />
     <MESSAGE value="Random walking" />
-    <option name="LAST_COMMIT_MESSAGE" value="Random walking" />
+    <MESSAGE value="My first spiral graph" />
+    <option name="LAST_COMMIT_MESSAGE" value="My first spiral graph" />
   </component>
 </project>
