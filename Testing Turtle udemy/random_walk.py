@@ -14,14 +14,21 @@ import random
 # mainloop()  # Keep the window open until manually closed
 
 
+colormode(255)
+def random_color():
+    r = random.randint(0,255)
+    g = random.randint(0,255)
+    b = random.randint(0,255)
+    r_color = (r,g,b)
+    return r_color
 
-colours = ["CornflowerBlue", "DarkOrchid", "IndianRed", "DeepSkyBlue", "LightSeaGreen", "wheat", "SlateGray", "SeaGreen"]
+
 directions = [0,90,180,270]
 pensize(15)
 speed("fastest")
 
 for _ in range(200):
-    color(random.choice(colours))
+    color(random_color())
     forward(30)
     setheading(random.choice(directions))
 exitonclick()

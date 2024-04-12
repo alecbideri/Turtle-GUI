@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38e37a64-ae90-4df1-ad7f-fc59506346c0" name="Changes" comment="My first multiple shapes on one screen">
-      <change afterPath="$PROJECT_DIR$/Testing Turtle udemy/random_walk.py" afterDir="false" />
+    <list default="true" id="38e37a64-ae90-4df1-ad7f-fc59506346c0" name="Changes" comment="Random walking">
+      <change afterPath="$PROJECT_DIR$/Testing Turtle udemy/spiral_graph.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testing Turtle udemy/multiple_shapes.py" beforeDir="false" afterPath="$PROJECT_DIR$/Testing Turtle udemy/multiple_shapes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testing Turtle udemy/random_walk.py" beforeDir="false" afterPath="$PROJECT_DIR$/Testing Turtle udemy/random_walk.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +46,7 @@
     "Python.main.executor": "Run",
     "Python.multiple_shapes.executor": "Run",
     "Python.random_walk.executor": "Run",
+    "Python.spiral_graph.executor": "Run",
     "Python.square.executor": "Run",
     "Python.star.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -54,7 +55,7 @@
     "git-widget-placeholder": "main"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.random_walk">
+  <component name="RunManager" selected="Python.spiral_graph">
     <configuration name="dash_lines" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Turtle_GUI" />
       <option name="ENV_FILES" value="" />
@@ -69,28 +70,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Testing Turtle udemy/dash_lines.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Turtle_GUI" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Testing Turtle udemy" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Testing Turtle udemy/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -143,6 +122,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="spiral_graph" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Turtle_GUI" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Testing Turtle udemy" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Testing Turtle udemy/spiral_graph.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="square" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Turtle_GUI" />
       <option name="ENV_FILES" value="" />
@@ -167,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.spiral_graph" />
         <item itemvalue="Python.random_walk" />
         <item itemvalue="Python.multiple_shapes" />
         <item itemvalue="Python.dash_lines" />
         <item itemvalue="Python.square" />
-        <item itemvalue="Python.main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -207,12 +208,21 @@
       <option name="project" value="LOCAL" />
       <updated>1712916987885</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Random walking">
+      <option name="closed" value="true" />
+      <created>1712919575442</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1712919575442</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="My first dash lines using turtle" />
     <MESSAGE value="My first multiple shapes on one screen" />
-    <option name="LAST_COMMIT_MESSAGE" value="My first multiple shapes on one screen" />
+    <MESSAGE value="Random walking" />
+    <option name="LAST_COMMIT_MESSAGE" value="Random walking" />
   </component>
 </project>
