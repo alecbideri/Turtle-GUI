@@ -8,7 +8,7 @@ def draw_shape(num_sides):
         forward(100)
         right(angle)
 
-for shape_side in range(3,10):
+for shape_side in range(3,12):
     color(random.choice(colours))
     draw_shape(shape_side)
 exitonclick()
